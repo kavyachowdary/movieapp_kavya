@@ -1,0 +1,19 @@
+md-toolbar{
+	background-color: #e3e3e3;
+}
+
+ li
+{
+	display: inline;
+	padding: 10px;
+
+}
+
+#twitter:hover
+{
+color:  red;
+}
+#facebook:hover
+{
+color:  red;
+}

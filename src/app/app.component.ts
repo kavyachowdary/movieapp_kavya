@@ -4,7 +4,9 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
+
 })
 export class AppComponent {
-  title = 'app works!';
+  private listId = 'LIST_MOVIE';
+  private brandName = 'My Movie App';
 }

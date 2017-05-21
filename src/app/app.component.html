@@ -1,3 +1,17 @@
-<h1>
-  {{title}}
-</h1>
+<md-toolbar color="primary">
+  <span>{{ brandName }}</span>
+  <button md-button>Home</button>
+  <button md-button>About</button>
+  <button md-button>AllTimeFav</button>
+  <button md-button>BoxOffice</button>
+ <app-search-bar></app-search-bar>
+ 			
+                <nav >
+					<ul>
+					<li><i class="fa fa-twitter" aria-hidden="true" id="twitter"></i></li>
+					<li><i class="fa fa-facebook" aria-hidden="true" id="facebook"></i></li>
+					</ul>
+				</nav>
+</md-toolbar>
+
+<router-outlet></router-outlet>

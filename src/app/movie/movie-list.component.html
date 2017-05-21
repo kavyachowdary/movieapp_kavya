@@ -1,0 +1,25 @@
+<md-grid-list cols="4" rowHeight="1:2">
+<div *ngFor="let mov of movie">
+<md-grid-tile>
+<md-card > 
+  <md-card-header>
+    <div md-card-avatar></div>
+    <md-card-title><strong>Title :</strong>{{ mov.Title }}</md-card-title>
+    <md-card-subtitle><strong>Year :</strong>{{ mov.Year }}</md-card-subtitle>
+  </md-card-header>
+  <img md-card-image src="{{ mov.Poster }}" />
+  <md-card-content>
+    <p>
+     hi
+    </p>
+  </md-card-content>
+  <md-card-actions>
+
+    <button md-button>Delete</button>
+    <button md-button>Update</button>
+  </md-card-actions>
+ 
+</md-card>
+ </md-grid-tile>
+</div>
+</md-grid-list>
